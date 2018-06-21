@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.luisr.dadomatematico.ui.PlayersActivity"
+    android:background="@android:color/background_light">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:addStatesFromChildren="false"
+            android:baselineAligned="false">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/jugadores"
+                android:layout_weight="1"
+                android:fontFamily="cursive"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="normal|bold"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                android:text="@string/jugadores" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_dialog_dialer"
+                android:id="@+id/imageView6"
+                android:layout_weight="1"
+                android:tint="@android:color/holo_red_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJugador1"
+                android:text="@string/tvJugador1"
+                android:fontFamily="cursive"
+                android:textSize="24sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textAlignment="viewStart"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/etJugador1"
+                android:layout_weight="1"
+                android:singleLine="false"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/background_dark"
+                android:fontFamily="cursive"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_dialog_dialer"
+                android:id="@+id/imageView7"
+                android:layout_weight="1"
+                android:tint="@android:color/holo_green_dark"
+                android:layout_marginRight="0dp" />
+
+            <TextView
+                android:text="@string/tvJugador2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJugador2"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:fontFamily="cursive"
+                android:textColor="@android:color/holo_green_dark"
+                android:gravity="center_horizontal"
+                android:textAlignment="viewStart"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_weight="0.27"
+            android:layout_marginBottom="30dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/etJugador2"
+                android:layout_weight="1"
+                android:fontFamily="cursive"
+                android:layout_marginTop="10dp"
+                android:textColorLink="@color/colorPrimary"
+                android:singleLine="false"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <Button
+            android:text="@string/btStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btStart"
+            android:backgroundTint="?android:attr/textColorHighlight"
+            android:fontFamily="cursive"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:elevation="0dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+    </LinearLayout>
+
+</RelativeLayout>

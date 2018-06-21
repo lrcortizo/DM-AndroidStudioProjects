@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ListaCompra</string>
+    <string name="main_op_inserta">Insertar</string>
+    <string name="main_op_elimina_ultimo">Eliminar</string>
+    <string name="opElimina">Eliminar</string>
+</resources>

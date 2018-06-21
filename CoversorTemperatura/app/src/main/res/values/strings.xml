@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CoversorTemperatura</string>
+    <string name="lbl_celsius">Grados celsius</string>
+    <string name="lbl_farenheit">Grados fahrenheit</string>
+</resources>

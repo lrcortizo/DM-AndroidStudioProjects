@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btExit">Exit</string>
+    <string name="btFin">End</string>
+    <string name="btGame">Play</string>
+    <string name="btPlay">Play</string>
+    <string name="btScore">Score</string>
+    <string name="btStart">Start</string>
+    <string name="btTerminar">Finish</string>
+    <string name="btTurno">Next turn</string>
+    <string name="button12">Roll 12 faces dice</string>
+    <string name="button6">Roll 6 faces dice</string>
+    <string name="opAñadirJugador">Add player</string>
+    <string name="opElimina">Delete</string>
+    <string name="opHelp">Help</string>
+    <string name="opSalir">Exit</string>
+    <string name="tvExpresion">Write your result:</string>
+    <string name="tvHistory">History:</string>
+    <string name="tvJugador1">Player 1:</string>
+    <string name="tvJugador2">Player 2:</string>
+    <string name="btLanguage">Lanugage</string>
+    <string name="btEnglish">English</string>
+    <string name="btSpanish">Spanish</string>
+    <string name="opDelete">Delete history</string>
+    <string name="btGalician">Galician</string>
+    <string name="y">and</string>
+    <string name="tiempo">Seconds:</string>
+    <string name="resultado">Result of</string>
+    <string name="dado12">12 faces dices:</string>
+    <string name="dado6">6 faces dices:</string>
+    <string name="empate">Tie between</string>
+    <string name="error">Error</string>
+    <string name="objetivo">Objective:</string>
+    <string name="numeros">The numbers to use are:</string>
+    <string name="helpturno">Introduce a mathematical expression to reach the objective</string>
+    <string name="help">Help</string>
+    <string name="ganar">win to</string>
+    <string name="helpdados">Press the buttons to roll dices</string>
+    <string name="helpplayers">Introduce the names of players and press start</string>
+    <string name="errorturno3">Wrong format, unknown characters</string>
+    <string name="errorturno2">Wrong format, introduce a math operation</string>
+    <string name="errorturno1">Introduce a result</string>
+    <string name="errorplayers2">Introduce the names of players before continue</string>
+    <string name="errorplayers1">The names of players are the same</string>
+    <string name="errordice">Roll dices before start</string>
+    <string name="btInstructions">Instructions</string>
+    <string name="instrucciones">
+        Play for 2 players.\n\n
+        First of game a dice of 12 faces is rolled and then is calculated the inicial number with the results.\n\n
+        Then a dice of 6 faces is rolled 6 times and we obtain 6 numbers.\n\n
+        The purpose of the game is try to reach te inicial number with the 6 numbers using math operations between this numbers(+, -, *, /).\n\n
+        The player who get closer to inicial number is the winner.</string>
+    <string name="dados">Dices</string>
+    <string name="jugadores">Players</string>
+    <string name="titulo">Mathematic dice</string>
+    <string name="jugador">Player:</string>
+</resources>

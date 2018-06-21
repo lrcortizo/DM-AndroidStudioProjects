@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.luisr.dadomatematico.ui.MainActivity"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:text="@string/titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titulo"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@android:color/background_light"
+                android:textSize="36sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textAllCaps="false"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:fontFamily="cursive"
+                android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_dialog_dialer"
+                android:id="@+id/imageView"
+                android:tint="@android:color/background_light"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/btGame"
+                android:layout_weight="1"
+                android:text="@string/btGame"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="10dp"
+                android:elevation="0dp"
+                android:backgroundTint="?android:attr/textColorHint"
+                android:fontFamily="cursive"
+                android:textSize="30sp"
+                android:textColor="@android:color/background_light"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="@string/btScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btScore"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="?android:attr/textColorHighlight"
+                android:fontFamily="cursive"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="@string/btLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btLanguage"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="?android:attr/textColorHighlight"
+                android:fontFamily="cursive"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="@string/btInstructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btInstructions"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="?android:attr/textColorHighlight"
+                android:fontFamily="cursive"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="@string/btExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btExit"
+                android:layout_weight="1"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="?android:attr/textColorHighlight"
+                android:fontFamily="cursive"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

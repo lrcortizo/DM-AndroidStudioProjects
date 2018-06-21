@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btEnglish">Inglés</string>
+    <string name="btExit">Saír</string>
+    <string name="btFin">Fin</string>
+    <string name="btGalician">Galego</string>
+    <string name="btGame">Xogar</string>
+    <string name="btLanguage">Idioma</string>
+    <string name="btPlay">Xogar</string>
+    <string name="btScore">Puntuacións</string>
+    <string name="btSpanish">Español</string>
+    <string name="btStart">Comezar</string>
+    <string name="btTerminar">Rematar</string>
+    <string name="btTurno">Pasar turno</string>
+    <string name="button12">Lanzar dado 12 caras</string>
+    <string name="button6">Lanzar dado 6 caras</string>
+    <string name="opAñadirJugador">Engadir xogador</string>
+    <string name="opDelete">Borrar historial</string>
+    <string name="opElimina">Eliminar</string>
+    <string name="opHelp">Axuda</string>
+    <string name="opSalir">Saír</string>
+    <string name="tvExpresion">Escribe o resultado:</string>
+    <string name="tvHistory">Historial de partidas:</string>
+    <string name="tvJugador1">Nome do xogador 1:</string>
+    <string name="tvJugador2">Nome do xogador 2:</string>
+    <string name="y">e</string>
+    <string name="tiempo">Quedan:</string>
+    <string name="resultado">Resultado de</string>
+    <string name="dado12">Dados de 12 caras:</string>
+    <string name="dado6">Dados de 6 caras:</string>
+    <string name="empate">Empate entre</string>
+    <string name="error">Erro</string>
+    <string name="objetivo">A cifra obxetivo é:</string>
+    <string name="numeros">Os números a usar son:</string>
+    <string name="help">Axuda</string>
+    <string name="ganar">gana a</string>
+    <string name="helpdados">Pulsa os botóns para lanzar os dados</string>
+    <string name="helpplayers">Escribe os nomes dos xogadores e pulsa comezar</string>
+    <string name="helpturno">Escribe unha expresión matemática para chegar ao obxetivo</string>
+    <string name="errorturno3">Formato incorrecto, caracteres non válidos</string>
+    <string name="errorturno2">Formato incorrecto, introduce unha operación</string>
+    <string name="errorturno1">Introduce un resultado</string>
+    <string name="errorplayers2">Escribe os nomes dos xogadores antes de continuar</string>
+    <string name="errorplayers1">Nomes de xogadores iguais</string>
+    <string name="errordice">Lanza os dados antes de comezar</string>
+    <string name="btInstructions">Instruccións</string>
+    <string name="instrucciones">
+        Xogo para 2 xogadores.\n\n
+        O principio do xogo lanzase un dado de 12 caras 2 veces, e calculase o número inicial cos resultados.\n\n
+        Lanzase 6 veces un dado de 6 caras e obteñense 6 números.\n\n
+        A finalidade do xogo é intentar alcanzar o número inicial cos 6 números mediante o empleo de operacións matematicas (+, -, *, /).\n\n
+        O xogador que mais se aproxime o número inicial é o ganador.</string>
+    <string name="dados">Dados</string>
+    <string name="jugadores">Xogadores</string>
+    <string name="titulo">Dado matemático</string>
+    <string name="jugador">Xogador:</string>
+</resources>
